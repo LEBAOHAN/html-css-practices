@@ -1,0 +1,15 @@
+#title{
+ position: fixed;
+ justify-content: space-around;
+}
+.lists{
+  display: flex;
+  list-style: none;
+}
+#title .lists li{
+  padding: 0 0 10px 0;
+}
+#nav{
+  margin: 20px;
+  padding: 20px;
+}
