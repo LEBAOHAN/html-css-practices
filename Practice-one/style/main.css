@@ -1,15 +1,102 @@
-#title{
- position: fixed;
- justify-content: space-around;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* { 
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Roboto', 'sans-serif';
+  line-height: 1.4;
 }
-.lists{
+#header{
+  background: url('../assets/images/Background-1.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 150px;
+  padding-top: 0px;
+}
+#header .header-page{
+  display: flex;
+  justify-content: space-between;
+  top: 0px;
+  width: 100%;
+  color: aliceblue;
+  padding: 30px 80px;
+  background-color: #4b4b4b;
+
+}
+#header .header-page .nametag{
+  font-weight: bold;
+  font-size: 30px;
+  color: #ebcb80;
+}
+#header .header-page .link{
   display: flex;
   list-style: none;
+  font-size: 20px;
 }
-#title .lists li{
-  padding: 0 0 10px 0;
+#header .header-page .link li{
+  margin-top: 10px;
+  margin-right: 20px;
 }
-#nav{
-  margin: 20px;
-  padding: 20px;
+#header .header-page .link li:hover{
+  border-bottom: 2px solid white;
+}
+#header .header-page .link a {
+  text-decoration: none;
+  color:white;
+}
+#header .header-page .link .T_A_T{
+  padding: 10px 30px;
+  border: 1px solid white;
+  background-color: #4b4b4b;
+  border-radius: 30px;
+}
+#header .header-page .link .T_A_T:hover {
+  border: 2px solid white;
+}
+#header .header-body{
+  color:#4b4b4b;
+  margin-top: 150px;
+  text-align: center;
+}
+#header .header-body .hb1{
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+#header .header-body .hb1 p{
+  font-weight: bold;
+  font-size: 34px;
+}
+#header .header-body .hb2 {
+  margin-bottom: 50px;
+}
+#header .header-body .hb2 .email {
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: transparent;
+  margin-right: 20px;
+}
+#header .header-body .hb2 .submit {
+  padding: 5px 40px;
+  border: 1.5px solid black;
+  border-radius: 30px;
+  background-color: transparent;
+}
+#header .header-body .hb2 .submit:hover {
+  background-color: #4b4b4b;
+  color: aliceblue;
+}
+#header .header-body .icon ul li{
+  display: inline-block;
+  margin: 0 5px;
+  padding: 10px 10px;
+  border-radius: 100%;
+  background: #4b4b4b;
+}
+#header .header-body .icon ul li .fa-plane , .fa-wallet , .fa-briefcase{
+  background-color: #4b4b4b;
+  color:white;
+}
+#header .header-body .icon ul li:hover{
+  transform: scale(1.2);
 }
