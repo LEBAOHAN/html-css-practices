@@ -1,6 +1,7 @@
 * {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  ;
+  max-width: auto;
+  max-height: auto;
 }
 
 #header, #main {
@@ -25,16 +26,27 @@
   list-style: none;
   color: #FFF;
   font-size: 15px;
-  padding: 26px 222px;
+  padding: 26px 100px 26px 200px;
 }
 
 #header .nav ul li {
   display: inline ;
 }
 
-#header .nav .nametag{
+#header .nav .nametag {
   font-weight: bold;
   font-size: 28.75px;
+  padding-right: 40px;
+  border-right: 1px solid #FFF ;
+}
+
+#header .fa-solid {
+  color: white;
+  padding-right: 7px;
+}
+
+#header .nav .number {
+  padding-left: 20px;
 }
 
 #header .nav ul li a {
@@ -44,23 +56,23 @@
   top: 26px;
   text-decoration: none;
   color: #FFF;
-  padding: 0px 1.5px;
+  margin: 0 20px;
 }
 
 #header .nav ul li a:hover {
   color: rgba(177, 172, 172, 0.671);
 }
 
-#header .nav ul li input .button {
+#header .nav .button {
   padding: 9px;
-  background: rgba(255, 255, 255, 0.164);
+  background: rgba(255, 255, 255, 0.35);
   border-radius: 2px;
-  border: rgba(255, 255, 255, 0.164);
+  border: rgba(255, 255, 255, 0.35);
   color: #FFF;
 }
 
-#header .nav ul li input .button:hover {
-  background: rgba(255, 255, 255, 0.158);
+#header .nav .button:hover {
+  background: rgba(255, 255, 255, 0.514);
 }
 
 /*----Main---- */
@@ -88,4 +100,80 @@
 #main .masthead .summit:hover {
   border-radius: 2px;
   background: #5cc91d;
+}
+
+/*----footer----*/
+#footer {
+  position: absolute;
+  width: 1500px;
+  height: 409px;
+  left: 0px;
+  top: 1215px;
+  background: #EEF1EC;
+  display: flex;
+  padding: 0 180px ;
+}
+
+#footer ul {
+  list-style: none;
+  color: #83A7A5;
+  padding-top: 84px;
+}
+
+#footer ul li {
+  color: #83A7A5;
+}
+
+#footer ul li .email-wapik{
+  color: #0F5F5C;
+}
+
+#footer ul li a {
+  text-decoration: none;
+  color: #83A7A5;
+}
+
+#footer ul li a:hover {
+  color: #8d6de6;
+}
+
+#footer p span {
+  font-weight: bold;
+  color: #0F5F5C;
+}
+
+#footer .email {
+  width: 270.12px;
+  height: 36px;
+  background: #EEF1EC;
+  border-radius: 2px;
+  border: 1px solid #EEF1EC;
+}
+  
+#footer button {
+  border: 1px solid #EEF1EC;
+}
+  
+#footer button a {
+  color: #6FB048;
+}
+
+#footer button a:hover {
+  color: #4ee6a6;
+}
+
+#footer .copyright {
+  position: absolute;
+  width: 129.88px;
+  height: 17px;
+  left: 222px;
+  top: 301px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  display: flex;
+  align-items: flex-end;
+  color: #83A7A5;
 }
