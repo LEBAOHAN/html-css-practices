@@ -7,78 +7,125 @@
     <title>Wapik</title>
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./style/reset.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
   </head>
   <body>
-    <header id="header">
-      <nav class="nav">
-          <ul>
-            <li class="nametag">WAPIK</li>
-            <li class="number"><i class="fa-solid fa-phone"></i>+62 202 555 0117</li>
-          </ul>
-          <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT US</a></li>
-            <li><a href="">PRICING</a></li>
-            <li><a href="">CONTACT US</a></li>
-            <input type="button" class="button" value="GET STARTED">
-          </ul>
-      </nav>
-    </header>
-    <main id="main">
-      <section class="masthead">
-        <h2>Welcome to the Wapik</h2>
-        <p>Wapik is multipurpose template, with modern and smart design. Wapik<br> is perfect template for you!</p><br>
-        <input type="submit" class="summit" value="LEARN MORE">
+    <!-- Header section -->
+    <header id="header" class="header">
+      <section class="first-header">
+        <div class="">
+          <p class="name">Wapik</p>
+          <p class="line-1"></p>
+          <img src="./assets/images/icons/telephone.png" alt="telephone" class="telephone">
+          <p class="number">+62 202 555 0117</p>
+        </div>
+        <!-- Navigation -->
+        <nav class="navigation">
+          <a href="" class="home">Home</a>
+          <a href="" class="about-us">About us</a>
+          <a href="" class="pricing">Pricing</a>
+          <a href="" class="contact-us">Contact us</a>
+          <a href="" class="button"><input type="text" class="get-started" value="Get started"></a>
+        </nav>
       </section>
+      <!--  -->
+      <section class="masthead">
+        <h2 class="welcome">Welcome to the Wapik</h2>
+        <p class="p-welcome">Wapik is multipurpose template, with modern and smart design.
+          Wapik is perfect template for you!</p>
+        <a href="">
+          <button class="button">
+            <p class="learn-more">LEARN MORE</p>
+          </button>
+        </a>
+      </section>
+    </header>
+    <!-- Main section -->
+    <main id="main" class="main">
+      <!-- Section: Best of our features -->
       <section class="best-of-our-features">
-        <p></p>
+        <h1>Best of our features</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+      </section>
+      <!-- Section: 3 columns -->
+      <section class="three-columns">
+        <div class="first-column">
+        <img src="./assets/images/icons/Ionicons-icon.png" alt="Ionicons"
+        class="icon-ionicons">
+        <h1>Ionicons</h1>
+        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. 
+          Aenean eu leo quam. Pellentesque ornare sem.</p>
+        </div>
+
+        <div class="second-column">
+          <img src="./assets/images/icons/Creative-design-icon.png"
+           alt="Creative design" class="icon-creative-design">
+          <h1>Creative Design</h1>
+          <p>Maecenas faucibus mollis interdum. Praesent commodo cursus magna, 
+            vel scelerisque nisl consectetur et.</p>
+        </div>
+
+        <div class="third-column">
+          <img src="./assets/images/icons/Photoshop-and-sketch-icon.png"
+           alt="Photoshop and sketch" class="icon-photoshop-and-sketch">
+          <h1>Photoshop and Sketch</h1>
+          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas 
+            sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>
       </section>
     </main>
-    <footer id="footer">
-      <div class="info">
-        <ul>
-          <li><p><span>WAPIK</span><p></li>
-          <li>Email: <a href="" class="email-wapik">hi@wapik.com</a></li>
-          <li>Phone: +62 202 555 0117</li>
-          <li>Address: 610 Overlook Circle</li>
-        </ul>
+    <!-- Footer section -->
+    <footer id="footer" class="footer">
+      <div class="wapik-info">
+        <p>WAPIK</p>
+        <div class="info">
+          <p>Email: <a href="mailto:hi@wapik.com" class="email-wapik">hi@wapik.com</a></p>
+          <p>Phone: +62 202 555 0117</p>
+          <p>Address: 610 Overlook Circle</p>
+        </div>
       </div>
-      <div class="nav-2">
-        <ul>
-          <li><p><span>Company</span></p></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Pricing</a></li>
-          <li><a href="">Contact Us</a></li>
-        </ul>
+
+      <div class="company">
+        <p>Company</p>
+        <nav class="navigation-two">
+          <a href="">Home</a>
+          <a href="">About Us</a>
+          <a href="">Pricing</a>
+          <a href="">Contact Us</a>
+        </nav>
       </div>
-      <div class="">
-        <ul>
-          <li><p><span>Others</span></p></li>
-          <li><a href="">Help & Support</a></li>
-          <li><a href="">Privacy Policy Terms</a></li>
-          <li><a href="">Sitemap</a></li>
-        </ul>
+
+      <div class="others">
+        <p>Others</p>
+        <nav class="navigation-three">
+          <a href="">Help & Support</a>
+          <a href="">Privacy Policy Terms</a>
+          <a href="">Sitemap</a>
+        </nav>
       </div>
+
       <div class="sub">
-        <ul>
-          <p><span>Newsletter</span><br><br>
-          Subscribe to our newsletter and get all
-          the cool news</p>
-          <input type="email" class="email" placeholder="Enter email" >
-          <button><a href=""><i class="fa-solid fa-paper-plane"></i></a></button>
-        </ul>
+        <p><span>Newsletter</span><br><br>
+        Subscribe to our newsletter and get all
+        the cool news</p>
+        <input type="email" class="email" required placeholder="Enter email">
+        <button type="button" onclick="alert('Please input your email here')">
+          <a href=""><img src="./assets/images/icons/sent.png" alt=""></a>
+        </button>
       </div>
+
       <div class="copyright">
         <p>All rights reserved 2021</p>
       </div>
+
       <div class="icon">
-        <i class="fa-brands fa-twitter-square"></i>
-        <i class="fa-brands fa-facebook-square"></i>
-        <i class="fa-brands fa-instagram-square"></i>
-        <i class="fa-brands fa-dribbble-square"></i>
-        <i class="fa-brands fa-github-alt"></i>
+        <ul>
+          <li class="icon-twitter"><img src="./assets/images/icons/twitter.png" alt="twitter"></li>
+          <li class="icon-facebook"><img src="./assets/images/icons/facebook.png" alt="facebook"></li>
+          <li class="icon-instagram"><img src="./assets/images/icons/instagram.png" alt="instagram"></li>
+          <li class="icon-dribble"><img src="./assets/images/icons/dribbble.png" alt="dribbble"></li>
+          <li class="icon-github"><img src="./assets/images/icons/github.png" alt="github"></li>
+        </ul>
       </div>
     </footer>
   </body>
