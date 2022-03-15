@@ -140,6 +140,10 @@ top: 34px;
   border-radius: 2px;
 }
 
+.header .navigation .button:hover {
+  background: rgb(255, 255, 255);
+}
+
 .header .navigation .get-started {
   position: absolute;
   width: 84px;
@@ -157,11 +161,11 @@ top: 34px;
 }
 
 .header .navigation .get-started:hover {
-  background: rgba(255, 255, 255, 0.514);
+  color: rgba(255, 255, 255, 0.35);
 }
 
 /*----Masthead----*/
-.header .welcome {
+.header .masthead .welcome {
   position: absolute;
   width: 377px;
   height: 53px;
@@ -180,7 +184,7 @@ top: 34px;
   color: #FFFFFF;
 }
 
-.header .p-welcome {
+.header .masthead .p-welcome {
   position: absolute;
   width: 515px;
   height: 48px;
@@ -196,7 +200,7 @@ top: 34px;
   color: #FFFFFF;
 }
 
-.header .button {
+.header .masthead .button {
   position: absolute;
   width: 186px;
   height: 50px;
@@ -207,12 +211,12 @@ top: 34px;
   border-radius: 2px;
 }
 
-.header .button:hover {
+.header .masthead .button:hover {
   border-radius: 2px;
   background: #5cc91d;
 }
 
-.header .learn-more {
+.header .masthead .learn-more {
   position: absolute;
   width: 98px;
   height: 18px;
@@ -351,8 +355,224 @@ top: 34px;
   height: 409px;
   left: 0px;
   top: 1215px;
+
   background: #EEF1EC;
-  display: flex;
-  padding: 0 180px ;
 }
 
+.footer .top-footer {
+  position: absolute;
+  width: 1056px;
+  height: 159px;
+  left: 222px;
+  top: 1299px;
+}
+
+.footer .wapik-info p {
+  position: absolute;
+  width: 203px;
+  height: 26px;
+  left: 222px;
+  top: 1299px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+
+  display: flex;
+  align-items: flex-end;
+  
+  color: #0F5F5C;
+}
+
+.footer .wapik-info .info {
+  position: absolute;
+  width: 210.64px;
+  height: 84px;
+  left: 222.94px;
+  top: 1338px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 28px;
+  
+  color: #83A7A5;
+}
+.footer .company p {
+  position: absolute;
+  width: 201px;
+  height: 18px;
+  left: 483px;
+  top: 1303px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  
+  color: #0F5F5C;
+}
+
+.footer .company .navigation-2 {
+  position: absolute;
+  width: 200px;
+  height: 112px;
+  left: 484px;
+  top: 1341px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 28px;
+  
+  color: #83A7A5;
+}
+
+.footer .others p {
+  position: absolute;
+  width: 257px;
+  height: 18.6px;
+  left: 750px;
+  top: 1303px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+
+  color: #0F5F5C;
+}
+
+.footer .others .navigation-3 {
+  position: absolute;
+  width: 180.52px;
+  height: 115.73px;
+  left: 751.47px;
+  top: 1342.27px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 28px;
+
+  color: #83A7A5;
+}
+
+.footer .sub p span {
+  position: absolute;
+  width: 253.46px;
+  height: 18px;
+  left: 1007.64px;
+  top: 1303px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  
+  color: #0F5F5C;
+}
+
+.footer .sub p {
+  position: absolute;
+  width: 269.23px;
+  height: 36px;
+  left: 1008.77px;
+  top: 1338px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+
+  color: #83A7A5;
+}
+
+.footer .sub .email {
+  position: absolute;
+  width: 270.12px;
+  height: 36px;
+  left: 1007px;
+  top: 1388px;
+  
+  background: #EEF1EC;
+  border-radius: 2px;
+}
+
+.footer .sub button {
+  position: absolute;
+  width: 14.16px;
+  height: 12.62px;
+  left: 1244.5px;
+  top: 1399.43px;
+  
+  background: #DADADA;
+}
+
+.footer .bottom-footer {
+  position: absolute;
+  width: 1055px;
+  height: 43.5px;
+  left: 222px;
+  top: 1496.5px;
+}
+
+.footer .copyright {
+  position: absolute;
+  width: 129.88px;
+  height: 17px;
+  left: 222px;
+  top: 1516px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+
+  display: flex;
+  align-items: flex-end;
+  
+  color: #83A7A5;
+}
+
+.footer .icon {
+  position: absolute;
+  width: 29.97px;
+  height: 30px;
+  top: 1510px;
+}
+
+.footer .icon .icon-twitter {
+  position: absolute;
+  left: 1087.18px;
+}
+
+.footer .icon .icon-facebook {
+  position: absolute;
+  left: 1127.14px;
+}
+
+.footer .icon .icon-instagram {
+  position: absolute;
+  left: 1167.1px;
+}
+
+.footer .icon .icon-dribble {
+  position: absolute;
+  left: 1207.07px;
+}
+
+.footer .icon .icon-github {
+  position: absolute;
+  left: 1247.03px;
+}
