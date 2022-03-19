@@ -13,8 +13,8 @@ Step by step to run this repository at your local
 
 1. Clone this repo
 
----bash
-git clone https://github.com/LEBAOHAN/html-css-practices.git
----
+```bash
+git clone https://github.com/LEBAOHAN html-css-practices.git
+```
 
-2. At the root folder, open file 'index.html'
+2. At the root folder, open file `index.html`
