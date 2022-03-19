@@ -9,7 +9,7 @@
   background-image: url(../assets/images/home/team-work.png);
 }
 
-.header .first-header {
+.header .first-head {
   position: absolute;
   width: 1500px;
   height: 200px;
@@ -20,7 +20,7 @@
   rgba(0, 0, 0, 0.5) 100%);
 }
 
-.header .name {
+.header .title {
   position: absolute;
   width: 90px;
   height: 39px;
@@ -43,7 +43,7 @@
   left: 364px;
   top: 36px;
 
-  background: #FFFFFF;
+  color: #FFFFFF;
   mix-blend-mode: normal;
   opacity: 0.7;
 }
