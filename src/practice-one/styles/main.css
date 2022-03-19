@@ -1,7 +1,3 @@
-* {
-  position: absolute;
-  margin: 0 auto;
-}
 /*----Header----*/
 .header {
   position: absolute;
@@ -10,7 +6,7 @@
   left: 0px;
   top: 0px;
   margin: 0 auto;
-  background-image: url(../assets/images/home/Team-work.png);
+  background-image: url(../assets/images/home/team-work.png);
 }
 
 .header .first-header {
@@ -350,6 +346,8 @@ top: 34px;
 
 /*----footer----*/
 .footer {
+  display: flex;
+  justify-self: flex-end;
   position: absolute;
   width: 1500px;
   height: 409px;
