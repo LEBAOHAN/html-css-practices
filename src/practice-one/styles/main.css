@@ -40,14 +40,13 @@
 
 .header .telephone {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   left: 364px;
-  top: 36px;
-
-  font-family: 'Montserrat', sans-serif;
+  top: 46px;
 
   color: #FFFFFF;
+
 }
 
 .header .number {
@@ -60,16 +59,15 @@
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 12.5px;
   line-height: 16px;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 /*----Navigation----*/
 .header .navigation {
-  
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -82,17 +80,8 @@ color: #FFFFFF;
 }
 
 .header .navigation a {
-  width: 110px;
-  height: 32px;
-  left: 1168px;
-  top: 26px;
   text-decoration: none;
-  color: rgba(177, 172, 172, 0.671);
   margin: 0;
-}
-
-.header .navigation a:hover {
-  color: #FFFFFF;
 }
 
 .header .navigation .home {
@@ -101,13 +90,28 @@ color: #FFFFFF;
   height: 16px;
   left: 791px;
   top: 34px;
+
+  font-size: 13px;
+  color: rgba(177, 172, 172, 0.671);
 }
+
+.header .navigation .home:hover {
+  color: #FFFFFF;
+}
+
 .header .navigation .about-us {
   position: absolute;
   width: 70px;
   height: 16px;
   left: 864px;
   top: 34px;
+
+  font-size: 13px;
+  color: rgba(177, 172, 172, 0.671);
+}
+
+.header .navigation .about-us:hover {
+  color: #FFFFFF;
 }
 
 .header .navigation .pricing {
@@ -116,15 +120,28 @@ color: #FFFFFF;
   height: 16px;
   left: 963px;
   top: 34px;
-  
+
+  font-size: 13px;
+  color: rgba(177, 172, 172, 0.671);
+}
+
+.header .navigation .pricing:hover {
+  color: #FFFFFF;
 }
 
 .header .navigation .contact-us {
-position: absolute;
-width: 86px;
-height: 16px;
-left: 1050px;
-top: 34px;
+  position: absolute;
+  width: 86px;
+  height: 16px;
+  left: 1050px;
+  top: 34px;
+
+  font-size: 13px;
+  color: rgba(177, 172, 172, 0.671);
+}
+
+.header .navigation .contact-us:hover {
+  color: #FFFFFF;
 }
 
 .header .navigation .button {
@@ -136,6 +153,7 @@ top: 34px;
   
   background: rgba(255, 255, 255, 0.35);
   border-radius: 2px;
+  font-size: 12px;
 }
 
 .header .navigation .button:hover {
@@ -149,7 +167,7 @@ top: 34px;
   left: 1181px;
   top: 35px;
   
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -189,7 +207,7 @@ top: 34px;
   left: 222px;
   top: 347px;
 
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -207,6 +225,7 @@ top: 34px;
   
   background: #6FB048;
   border-radius: 2px;
+  border: 1px solid #6FB048;
 }
 
 .header .masthead .button:hover {
@@ -221,7 +240,7 @@ top: 34px;
   left: 266px;
   top: 428px;
   
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
