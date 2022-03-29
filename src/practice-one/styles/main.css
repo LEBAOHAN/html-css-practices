@@ -65,8 +65,8 @@
   color: #FFFFFF;
 }
 
-/*----Navigation----*/
-.header .navigation {
+/*----Link----*/
+.header .link {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -77,12 +77,12 @@
   opacity: 0.7;
 }
 
-.header .navigation a {
+.header .link a {
   text-decoration: none;
   margin: 0 auto;
 }
 
-.header .navigation .home {
+.header .link .home {
   position: absolute;
   width: 43px;
   height: 16px;
@@ -93,11 +93,11 @@
   color: rgba(177, 172, 172, 0.671);
 }
 
-.header .navigation .home:hover {
+.header .link .home:hover {
   color: #FFFFFF;
 }
 
-.header .navigation .about-us {
+.header .link .about-us {
   position: absolute;
   width: 70px;
   height: 16px;
@@ -108,11 +108,11 @@
   color: rgba(177, 172, 172, 0.671);
 }
 
-.header .navigation .about-us:hover {
+.header .link .about-us:hover {
   color: #FFFFFF;
 }
 
-.header .navigation .pricing {
+.header .link .pricing {
   position: absolute;
   width: 57px;
   height: 16px;
@@ -123,11 +123,11 @@
   color: rgba(177, 172, 172, 0.671);
 }
 
-.header .navigation .pricing:hover {
+.header .link .pricing:hover {
   color: #FFFFFF;
 }
 
-.header .navigation .contact-us {
+.header .link .contact-us {
   position: absolute;
   width: 86px;
   height: 16px;
@@ -138,11 +138,11 @@
   color: rgba(177, 172, 172, 0.671);
 }
 
-.header .navigation .contact-us:hover {
+.header .link .contact-us:hover {
   color: #FFFFFF;
 }
 
-.header .navigation .button {
+.header .link .button {
   position: absolute;
   width: 110px;
   height: 32px;
@@ -151,17 +151,15 @@
   
   background: rgba(255, 255, 255, 0.35);
   border-radius: 2px;
-  font-size: 12px;
+  border: 1px solid rgba(255, 255, 255, 0);
 }
 
-.header .navigation .button:hover {
-  background: rgb(255, 255, 255);
+.header .link .button:hover {
+  background: rgba(255, 255, 255, 0.76);
 }
 
-.header .navigation .get-started {
-  position: absolute;
-  width: 84px;
-  height: 15px;
+.header .link .get-started {
+  margin: 0 auto;
   left: 1181px;
   top: 35px;
   
@@ -172,10 +170,6 @@
   line-height: 15px;
 
   color: #FFFFFF;
-}
-
-.header .navigation .get-started:hover {
-  color: rgba(255, 255, 255, 0.35);
 }
 
 /*----Masthead----*/
@@ -190,10 +184,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 38px;
-  line-height: 53px;
-  
-  display: flex;
-  align-items: flex-end;
+  line-height: 24px;
   
   color: #FFFFFF;
 }
@@ -219,7 +210,7 @@
   width: 186px;
   height: 50px;
   left: 222px;
-  top: 412px;
+  top: 429px;
   
   background: #6FB048;
   border-radius: 2px;
@@ -232,9 +223,7 @@
 }
 
 .header .masthead .learn-more {
-  position: absolute;
-  width: 98px;
-  height: 18px;
+  margin: 0 auto;
   left: 266px;
   top: 428px;
   
@@ -254,6 +243,7 @@
   height: 359px;
   left: 222px;
   top: 745px;
+  margin: 0 auto;
   
 }
 
@@ -270,103 +260,14 @@
   font-weight: 300;
   font-size: 32px;
   line-height: 38px;
-  
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
-}
-
-.main h1 {
-  position: absolute;
-  top: 997px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 23px;
 
   display: flex;
-  align-items: flex-end;
-  text-align: center;
-
-  color: #0F5F5C;
+  justify-content: center;
 }
 
-.main .first-column h1{
-  width: 61px;
-  height: 23px;
-  left: 362px;
-}
-
-.main .second-column h1 {
-  width: 112px;
-  height: 23px;
-  left: 693.5px;
-}
-
-.main .third-column h1 {
-  width: 161px;
-  height: 23px;
-  left: 1027px;
-}
-
-.main p {
-  position: absolute;
-  width: 340px;
-  height: 66px;
-  top: 1038px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-
-  text-align: center;
-  color: #83A7A5;
-}
-
-.main .first-column p {
-  left: 222px;
-}
-
-.main .second-column p {
-  left: 580px;
-}
-
-.main .third-column p {
-  left: 938px; 
-}
-
-.main .icon-ionicons {
-  position: absolute;
-  width: 52px;
-  height: 52px;
-  left: 366px;
-  top: 923px;
-}
-
-.main .icon-creative-design {
-  position: absolute;
-  width: 45.88px;
-  height: 57px;
-  left: 728.12px;
-  top: 920px;
-}
-
-.main .icon-photoshop-and-sketch {
-  position: absolute;
-  width: 56px;
-  height: 48px;
-  left: 1080px;
-  top: 929px;
-}
 
 /*----footer----*/
 .footer {
-  display: flex;
-  justify-self: flex-end;
   position: absolute;
   width: 1500px;
   height: 409px;
@@ -376,15 +277,7 @@
   background: #EEF1EC;
 }
 
-.footer .top-footer {
-  position: absolute;
-  width: 1056px;
-  height: 159px;
-  left: 222px;
-  top: 1299px;
-}
-
-.footer .wapik-info p {
+.footer .wapik p {
   position: absolute;
   width: 203px;
   height: 26px;
@@ -403,7 +296,7 @@
   color: #0F5F5C;
 }
 
-.footer .wapik-info .info {
+.footer .wapik .info {
   position: absolute;
   width: 210.64px;
   height: 84px;
@@ -434,7 +327,7 @@
   color: #0F5F5C;
 }
 
-.footer .company .navigation-2 {
+.footer .company .link-header{
   position: absolute;
   width: 200px;
   height: 112px;
@@ -447,6 +340,7 @@
   font-size: 13px;
   line-height: 28px;
   
+  list-style: none;
   color: #83A7A5;
 }
 
@@ -466,7 +360,7 @@
   color: #0F5F5C;
 }
 
-.footer .others .navigation-3 {
+.footer .others .link-sp {
   position: absolute;
   width: 180.52px;
   height: 115.73px;
