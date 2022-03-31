@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700&display=swap');
 
-/*----Header----*/
+/*---- Header ----*/
 .header {
   position: absolute;
   width: 1500px;
@@ -65,7 +65,7 @@
   color: #FFFFFF;
 }
 
-/*----Link----*/
+/*---- Link ----*/
 .header .link {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -172,7 +172,7 @@
   color: #FFFFFF;
 }
 
-/*----Masthead----*/
+/*---- Masthead ----*/
 .header .masthead .welcome {
   position: absolute;
   width: 377px;
@@ -189,7 +189,7 @@
   color: #FFFFFF;
 }
 
-.header .masthead .p-welcome {
+.header .masthead .c-welcome {
   position: absolute;
   width: 515px;
   height: 48px;
@@ -247,26 +247,141 @@
   
 }
 
-/*----Section: best of our features---- */
+/*---- Best of our features ---- */
 .main .best-of-our-features {
+  position: absolute;
+  width: 818px;
+  height: 87px;
+  left: 119px;
+  
+  text-align: center;
+}
+
+.main .best-of-our-features .title-content {
   position: absolute;
   width: 276px;
   height: 38px;
-  left: 612px;
-  top: 745px;
+  left: 271px;
+  bottom: 49px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 31.4px;
+  line-height: 38px;
+
+  color: #0F5F5C;
+}
+
+.main .best-of-our-features .content {
+  position: absolute;
+  width: 818px;
+  height: 22px;
+  top: 65px;
   
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 300;
-  font-size: 32px;
-  line-height: 38px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
 
-  display: flex;
-  justify-content: center;
+  color: #83A7A5;  
 }
 
+/*---- Contents of 3 columns ----*/
 
-/*----footer----*/
+.main .ionicons {
+  position: absolute;
+  width: 340px;
+  height: 181px;
+  top: 178px;
+
+  text-align: center;
+}
+
+.main .ionicons .title-content-i {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+
+  color: #0F5F5C;
+}
+
+.main .ionicons .content-i {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: #83A7A5;
+  }
+
+.main .creative-design {
+  position: absolute;
+  width: 340px;
+  height: 184px;
+  left: 358px;
+  top: 175px;
+
+  text-align: center;
+}
+
+.main .creative-design .title-content-c {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+
+  color: #0F5F5C;
+}
+
+.main .creative-design .content-c {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: #83A7A5;
+  }
+
+
+.main .photoshop-and-sketch {
+  position: absolute;
+  width: 340px;
+  height: 175px;
+  left: 716px;
+  top: 184px;
+  
+  text-align: center;
+}
+
+.main .photoshop-and-sketch .title-content-p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+
+  color: #0F5F5C;
+}
+
+.main .photoshop-and-sketch .content-p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: #83A7A5;
+  }
+
+
+/*---- Footer ----*/
 .footer {
   position: absolute;
   width: 1500px;
