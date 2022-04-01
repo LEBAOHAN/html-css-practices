@@ -22,6 +22,20 @@
   rgba(0, 0, 0, 0.5) 100%);
 }
 
+.header .first-head::after {
+  content: '';
+  display: block;
+  border-bottom: solid 1px #FFFFFF;
+  padding-top: 19.5px;
+  width: 1056px;
+  margin: 0px auto;
+  margin-top: 84.5px;
+  margin-bottom: 113.5px;
+
+  mix-blend-mode: normal;
+  opacity: 0.2;
+}
+
 .header .title {
   position: absolute;
   width: 90px;
@@ -36,6 +50,19 @@
   line-height: 1px;
   
   color: #FFFFFF;
+}
+
+.header .title::after {
+  content: '';
+  display: block;
+  border-right: solid 1px #FFFFFF;
+  /* padding-left: 100px; */
+  width: 2px;
+  height: 20px;
+  margin: 0 auto;
+
+  mix-blend-mode: normal;
+  opacity: 0.2;
 }
 
 .header .telephone {
@@ -271,6 +298,15 @@
   line-height: 38px;
 
   color: #0F5F5C;
+}
+
+.main .best-of-our-features .title-content::after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid #6fb048;
+  padding-top: 12.5px;
+  width: 65px;
+  margin: 0 auto;
 }
 
 .main .best-of-our-features .content {
