@@ -1,62 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700&display=swap');
 
-/*---- Header ----*/
-.header {
-  position: absolute;
+/*---- Main header ----*/
+.main-header {
   width: 1500px;
   height: 660px;
-  left: 0px;
-  top: 0px;
   margin: 0 auto;
   background-image: url(../assets/images/home/team-work.png);
 }
 
-.header .first-head {
-  position: absolute;
+.main-header .first-head {
   width: 1500px;
   height: 200px;
-  left: 0px;
-  top: 0px;
+  margin: 0 auto;
 
   background: linear-gradient(360deg, rgba(0, 0, 0, 5e-05) 0%,
   rgba(0, 0, 0, 0.5) 100%);
 }
 
-.header .first-head::after {
+.main-header .first-head::after {
   content: '';
   display: block;
   border-bottom: solid 1px #FFFFFF;
   padding-top: 19.5px;
   width: 1056px;
   margin: 0px auto;
-  margin-top: 84.5px;
-  margin-bottom: 113.5px;
 
   mix-blend-mode: normal;
   opacity: 0.2;
 }
 
-.header .title {
-  position: absolute;
-  width: 90px;
-  height: 39px;
-  left: 222px;
-  top: 26px;
-  
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28.75px;
-  line-height: 1px;
-  
-  color: #FFFFFF;
+.main-header .brand-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.header .title::after {
+.main-header .brand-logo .logo {
+  width: 90px;
+  max-width: 100%;
+  max-height: 39px;
+}
+
+.main-header .brand-logo .logo::after {
   content: '';
   display: block;
   border-right: solid 1px #FFFFFF;
-  /* padding-left: 100px; */
+  padding-left: 100px;
   width: 2px;
   height: 20px;
   margin: 0 auto;
@@ -65,130 +54,113 @@
   opacity: 0.2;
 }
 
-.header .telephone {
-  position: absolute;
+.main-header .brand-logo .telephone {
   width: 18px;
   height: 18px;
-  left: 364px;
-  top: 46px;
 
   color: #FFFFFF;
-
 }
 
-.header .number {
-  position: absolute;
+.main-header .brand-logo .number {
   width: 104px;
   height: 16px;
-  left: 386px;
-  top: 34px;
 
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 12.5px;
+  font-size: 12.9px;
   line-height: 16px;
 
   color: #FFFFFF;
 }
 
 /*---- Link ----*/
-.header .link {
+.main-header .links {
+  display:flex ;
+  justify-content: flex-end;
+  
+  width: 500px;
+  height: 39px;
+  padding-left: 791px;
+  padding-right: 222px;
+
+
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
-
-  mix-blend-mode: normal;
-  opacity: 0.7;
 }
 
-.header .link a {
+.main-header .links a {
   text-decoration: none;
+  text-transform: uppercase;
   margin: 0 auto;
 }
 
-.header .link .home {
-  position: absolute;
+.main-header .links .home {
   width: 43px;
   height: 16px;
-  left: 791px;
-  top: 34px;
+  padding-right: 30px;
 
-  font-size: 13px;
   color: rgba(177, 172, 172, 0.671);
 }
 
-.header .link .home:hover {
+.main-header .links .home:hover {
   color: #FFFFFF;
 }
 
-.header .link .about-us {
-  position: absolute;
+.main-header .links .about-us {
   width: 70px;
   height: 16px;
-  left: 864px;
-  top: 34px;
+  padding-right: 29px;
 
-  font-size: 13px;
   color: rgba(177, 172, 172, 0.671);
 }
 
-.header .link .about-us:hover {
+.main-header .links .about-us:hover {
   color: #FFFFFF;
 }
 
-.header .link .pricing {
-  position: absolute;
+.main-header .links .pricing {
   width: 57px;
   height: 16px;
-  left: 963px;
-  top: 34px;
+  padding-right: 30px;
 
-  font-size: 13px;
   color: rgba(177, 172, 172, 0.671);
 }
 
-.header .link .pricing:hover {
+.main-header .links .pricing:hover {
   color: #FFFFFF;
 }
 
-.header .link .contact-us {
-  position: absolute;
+.main-header .links .contact-us {
   width: 86px;
   height: 16px;
-  left: 1050px;
-  top: 34px;
+  padding-right: 32px;
 
-  font-size: 13px;
   color: rgba(177, 172, 172, 0.671);
 }
 
-.header .link .contact-us:hover {
+.main-header .links .contact-us:hover {
   color: #FFFFFF;
 }
 
-.header .link .button {
-  position: absolute;
+.main-header .links .button {
   width: 110px;
   height: 32px;
-  left: 1168px;
-  top: 26px;
   
   background: rgba(255, 255, 255, 0.35);
   border-radius: 2px;
   border: 1px solid rgba(255, 255, 255, 0);
 }
 
-.header .link .button:hover {
+.main-header .links .button:hover {
   background: rgba(255, 255, 255, 0.76);
 }
 
-.header .link .get-started {
+.main-header .links .get-started {
   margin: 0 auto;
-  left: 1181px;
-  top: 35px;
   
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -196,16 +168,15 @@
   font-size: 12px;
   line-height: 15px;
 
+  text-transform: uppercase;
   color: #FFFFFF;
 }
 
 /*---- Masthead ----*/
-.header .masthead .welcome {
-  position: absolute;
+
+.main-header .masthead .welcome {
   width: 377px;
   height: 53px;
-  left: 222px;
-  top: 285px;
   
   font-family: 'Roboto';
   font-style: normal;
@@ -216,12 +187,9 @@
   color: #FFFFFF;
 }
 
-.header .masthead .c-welcome {
-  position: absolute;
+.main-header .masthead .c-welcome {
   width: 515px;
   height: 48px;
-  left: 222px;
-  top: 347px;
 
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -232,28 +200,23 @@
   color: #FFFFFF;
 }
 
-.header .masthead .button {
-  position: absolute;
+.main-header .masthead .button {
   width: 186px;
   height: 50px;
-  left: 222px;
-  top: 429px;
   
   background: #6FB048;
   border-radius: 2px;
   border: 1px solid #6FB048;
 }
 
-.header .masthead .button:hover {
+.main-header .masthead .button:hover {
   border-radius: 2px;
   background: #5cc91d;
 }
 
-.header .masthead .learn-more {
+.main-header .masthead .learn-more {
   margin: 0 auto;
-  left: 266px;
-  top: 428px;
-  
+
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -263,33 +226,27 @@
   color: #FFFFFF;
 }
 
-/*----Main---- */
-.main {
-  position: absolute;
-  width: 1056px;
-  height: 359px;
-  left: 222px;
-  top: 745px;
+/*----Main section---- */
+.main-section {
+  width: 1500px;
+  height: 555px;
   margin: 0 auto;
-  
 }
 
 /*---- Best of our features ---- */
-.main .best-of-our-features {
-  position: absolute;
+.main-section .best-of-our-features {
+  display: block;
+
   width: 818px;
   height: 87px;
-  left: 119px;
   
   text-align: center;
 }
 
-.main .best-of-our-features .title-content {
-  position: absolute;
+.main-section .best-of-our-features .title-content {
   width: 276px;
-  height: 38px;
-  left: 271px;
-  bottom: 49px;
+  max-width: 100%;
+  max-height: 38px;
 
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -300,7 +257,7 @@
   color: #0F5F5C;
 }
 
-.main .best-of-our-features .title-content::after {
+.main-section .best-of-our-features .title-content::after {
   content: '';
   display: block;
   border-bottom: 1px solid #6fb048;
@@ -309,11 +266,9 @@
   margin: 0 auto;
 }
 
-.main .best-of-our-features .content {
-  position: absolute;
+.main-section .best-of-our-features .content {
   width: 818px;
   height: 22px;
-  top: 65px;
   
   font-family: 'Roboto';
   font-style: normal;
@@ -325,17 +280,23 @@
 }
 
 /*---- Contents of 3 columns ----*/
+.main-section .contents {
+  display: flex;
+  justify-content: space-around;
 
-.main .ionicons {
-  position: absolute;
+  margin: 0 auto;
+}
+
+.main-section .ionicons {
   width: 340px;
-  height: 181px;
-  top: 178px;
+  max-width: 100%;
+  max-height: 181px;
+
 
   text-align: center;
 }
 
-.main .ionicons .title-content-i {
+.main-section .ionicons .title-content-i {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -345,7 +306,7 @@
   color: #0F5F5C;
 }
 
-.main .ionicons .content-i {
+.main-section .ionicons .content-i {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -355,17 +316,14 @@
   color: #83A7A5;
   }
 
-.main .creative-design {
-  position: absolute;
+.main-section .creative-design {
   width: 340px;
   height: 184px;
-  left: 358px;
-  top: 175px;
 
   text-align: center;
 }
 
-.main .creative-design .title-content-c {
+.main-section .creative-design .title-content-c {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -375,7 +333,7 @@
   color: #0F5F5C;
 }
 
-.main .creative-design .content-c {
+.main-section .creative-design .content-c {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -386,17 +344,14 @@
   }
 
 
-.main .photoshop-and-sketch {
-  position: absolute;
+.main-section .photoshop-and-sketch {
   width: 340px;
   height: 175px;
-  left: 716px;
-  top: 184px;
   
   text-align: center;
 }
 
-.main .photoshop-and-sketch .title-content-p {
+.main-section .photoshop-and-sketch .title-content-p {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -406,7 +361,7 @@
   color: #0F5F5C;
 }
 
-.main .photoshop-and-sketch .content-p {
+.main-section .photoshop-and-sketch .content-p {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -417,224 +372,11 @@
   }
 
 
-/*---- Footer ----*/
-.footer {
-  position: absolute;
+/*---- Main footer ----*/
+.main-footer {
   width: 1500px;
   height: 409px;
-  left: 0px;
-  top: 1215px;
+  margin: 0 auto;
 
   background: #EEF1EC;
-}
-
-.footer .wapik p {
-  position: absolute;
-  width: 203px;
-  height: 26px;
-  left: 222px;
-  top: 1299px;
-  
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 26px;
-
-  display: flex;
-  align-items: flex-end;
-  
-  color: #0F5F5C;
-}
-
-.footer .wapik .info {
-  position: absolute;
-  width: 210.64px;
-  height: 84px;
-  left: 222.94px;
-  top: 1338px;
-  
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 28px;
-  
-  color: #83A7A5;
-}
-.footer .company p {
-  position: absolute;
-  width: 201px;
-  height: 18px;
-  left: 483px;
-  top: 1303px;
-  
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 18px;
-  
-  color: #0F5F5C;
-}
-
-.footer .company .link-header{
-  position: absolute;
-  width: 200px;
-  height: 112px;
-  left: 484px;
-  top: 1341px;
-  
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 28px;
-  
-  list-style: none;
-  color: #83A7A5;
-}
-
-.footer .others p {
-  position: absolute;
-  width: 257px;
-  height: 18.6px;
-  left: 750px;
-  top: 1303px;
-  
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 18px;
-
-  color: #0F5F5C;
-}
-
-.footer .others .link-sp {
-  position: absolute;
-  width: 180.52px;
-  height: 115.73px;
-  left: 751.47px;
-  top: 1342.27px;
-  
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 28px;
-
-  color: #83A7A5;
-}
-
-.footer .send-email p span {
-  position: absolute;
-  width: 253.46px;
-  height: 18px;
-  left: 1007.64px;
-  top: 1303px;
-  
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 18px;
-  
-  color: #0F5F5C;
-}
-
-.footer .send-email p {
-  position: absolute;
-  width: 269.23px;
-  height: 36px;
-  left: 1008.77px;
-  top: 1338px;
-  
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 18px;
-
-  color: #83A7A5;
-}
-
-.footer .send-email .email {
-  position: absolute;
-  width: 270.12px;
-  height: 36px;
-  left: 1007px;
-  top: 1388px;
-  
-  background: #EEF1EC;
-  border-radius: 2px;
-}
-
-.footer .send-email button {
-  position: absolute;
-  width: 14.16px;
-  height: 12.62px;
-  left: 1244.5px;
-  top: 1399.43px;
-  
-  background: #DADADA;
-}
-
-.footer .bottom-footer {
-  position: absolute;
-  width: 1055px;
-  height: 43.5px;
-  left: 222px;
-  top: 1496.5px;
-}
-
-.footer .copyright {
-  position: absolute;
-  width: 129.88px;
-  height: 17px;
-  left: 222px;
-  top: 1516px;
-  
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 17px;
-
-  display: flex;
-  align-items: flex-end;
-  
-  color: #83A7A5;
-}
-
-.footer .icon {
-  position: absolute;
-  width: 29.97px;
-  height: 30px;
-  top: 1510px;
-}
-
-.footer .icon .icon-twitter {
-  position: absolute;
-  left: 1087.18px;
-}
-
-.footer .icon .icon-facebook {
-  position: absolute;
-  left: 1127.14px;
-}
-
-.footer .icon .icon-instagram {
-  position: absolute;
-  left: 1167.1px;
-}
-
-.footer .icon .icon-dribble {
-  position: absolute;
-  left: 1207.07px;
-}
-
-.footer .icon .icon-github {
-  position: absolute;
-  left: 1247.03px;
 }
