@@ -37,11 +37,12 @@
 
 .main-header .brand-logo .logo {
   width: 90px;
-  max-width: 100%;
-  max-height: 39px;
+  height: 39px;
+  margin-top: 26px;
+  margin-left: 222px;
 }
 
-.main-header .brand-logo .logo::after {
+/* .main-header .brand-logo .logo::after {
   content: '';
   display: block;
   border-right: solid 1px #FFFFFF;
@@ -52,11 +53,13 @@
 
   mix-blend-mode: normal;
   opacity: 0.2;
-}
+} */
 
 .main-header .brand-logo .telephone {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
+  margin-top: 36px;
+  margin-left: 52px;
 
   color: #FFFFFF;
 }
@@ -64,6 +67,8 @@
 .main-header .brand-logo .number {
   width: 104px;
   height: 16px;
+  margin-top: 34px;
+  margin-left: px;
 
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -76,20 +81,21 @@
 
 /*---- Link ----*/
 .main-header .links {
-  display:flex ;
-  justify-content: flex-end;
-  
-  width: 500px;
-  height: 39px;
-  padding-left: 791px;
-  padding-right: 222px;
-
+  width: 345px;
+  height: 16px;
+  margin-left: 569px;
 
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
+}
+
+.main-header .links .items {
+  display:flex ;
+  justify-content: space-around;
+  list-style: none;
 }
 
 .main-header .links a {
@@ -101,7 +107,7 @@
 .main-header .links .home {
   width: 43px;
   height: 16px;
-  padding-right: 30px;
+  margin-right: 30px;
 
   color: rgba(177, 172, 172, 0.671);
 }
@@ -137,7 +143,7 @@
 .main-header .links .contact-us {
   width: 86px;
   height: 16px;
-  padding-right: 32px;
+  padding-right: 364px;
 
   color: rgba(177, 172, 172, 0.671);
 }
@@ -146,37 +152,49 @@
   color: #FFFFFF;
 }
 
-.main-header .links .button {
+/*---- Button ----*/
+.main-header .first-head .button {
+  white-space: nowrap;
   width: 110px;
   height: 32px;
-  
-  background: rgba(255, 255, 255, 0.35);
-  border-radius: 2px;
-  border: 1px solid rgba(255, 255, 255, 0);
+  margin-left: 1168px;
+  margin-top: -33px;
 }
 
-.main-header .links .button:hover {
-  background: rgba(255, 255, 255, 0.76);
-}
+.main-header .first-head .get-started {
+  width: 84px;
+  height: 15px;
+  padding: 9px 12px 8px 12px;
 
-.main-header .links .get-started {
-  margin: 0 auto;
-  
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
 
+  text-decoration: none;
   text-transform: uppercase;
+
   color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.35);
+  border-radius: 2px;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.main-header .get-started:hover {
+  background-color: rgba(30, 143, 73, 0.534);
 }
 
 /*---- Masthead ----*/
 
+.main-header .masthead {
+    padding-left: 222px;
+}
+
 .main-header .masthead .welcome {
   width: 377px;
   height: 53px;
+  margin-bottom: 9px;
   
   font-family: 'Roboto';
   font-style: normal;
@@ -187,7 +205,7 @@
   color: #FFFFFF;
 }
 
-.main-header .masthead .c-welcome {
+.main-header .masthead .content-welcome {
   width: 515px;
   height: 48px;
 
@@ -201,21 +219,16 @@
 }
 
 .main-header .masthead .button {
+  white-space: nowrap;
   width: 186px;
   height: 50px;
-  
-  background: #6FB048;
-  border-radius: 2px;
-  border: 1px solid #6FB048;
-}
-
-.main-header .masthead .button:hover {
-  border-radius: 2px;
-  background: #5cc91d;
 }
 
 .main-header .masthead .learn-more {
   margin: 0 auto;
+  padding: 16px 44px;
+  width: 98px;
+  height: 18px;
 
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -224,6 +237,18 @@
   line-height: 18px;
 
   color: #FFFFFF;
+  background-color: #6FB048;
+  border-radius: 2px;
+  border: 1px solid #6FB048;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.main-header .masthead .learn-more:hover {
+  border-radius: 2px;
+  background: #5cc91d;
 }
 
 /*----Main section---- */
@@ -239,6 +264,7 @@
 
   width: 818px;
   height: 87px;
+  margin: 0 auto;
   
   text-align: center;
 }
