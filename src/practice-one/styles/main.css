@@ -49,7 +49,7 @@
   content: '';
   display: block;
   border-right: solid 1px #FFFFFF;
-  padding-left: 100px;
+  padding-left: 114.5px;
   width: 2px;
   height: 20px;
   margin: 0 auto;
@@ -440,6 +440,7 @@
   justify-content: space-between;
 }
 
+/*--- Info-contact ---*/
 .main-footer .top-footer .info {
   width: 211.58px;
   height: 123px;
@@ -477,6 +478,13 @@
   color: #0F5F5C;
 }
 
+/*--- "tag: a" of company and others ---*/
+.main-footer .top-footer .company-menu a, .others-menu a {
+  text-decoration: none;
+  color: #83A7A5;
+}
+
+/*--- Company ---*/
 .main-footer .top-footer .company-menu {
   width: 201px;
   height: 150px;
@@ -504,6 +512,24 @@
   font-weight: 400;
   font-size: 13px;
   line-height: 28px;
+
+  list-style: none;
+}
+
+.main-footer .top-footer .company-menu .links .home:hover {
+  color: #0F5F5C;
+}
+
+.main-footer .top-footer .company-menu .links .about-us:hover {
+  color: #0F5F5C;
+}
+
+.main-footer .top-footer .company-menu .links .pricing:hover {
+  color: #0F5F5C;
+}
+
+.main-footer .top-footer .company-menu .links .contact:hover {
+  color: #0F5F5C;
 }
 
 .main-footer .top-footer .others-menu {
@@ -511,6 +537,7 @@
   height: 155px;
 }
 
+/*--- Others ---*/
 .main-footer .top-footer .others-menu .title-others-menu {
   width: 257px;
   height: 18.6px;
@@ -533,14 +560,23 @@
   font-weight: 400;
   font-size: 13px;
   line-height: 28px;
-}
 
-.main-footer .top-footer .company-menu a, .others-menu a {
-  text-decoration: none;
   list-style: none;
-  color: #83A7A5;
 }
 
+.main-footer .top-footer .others-menu .menu .help-sp:hover {
+ color: #0F5F5C;
+}
+
+.main-footer .top-footer .others-menu .menu .policy-terms:hover {
+  color: #0F5F5C;
+}
+
+.main-footer .top-footer .others-menu .menu .map:hover {
+  color: #0F5F5C;
+}
+
+/*--- Newsletter ---*/
 .main-footer .top-footer .newsletter{
   width: 271px;
   height: 121px;
@@ -590,7 +626,6 @@
   border: none;
   border-radius: 2px;
   background: #EEF1EC;
-
 }
 
 .main-footer .top-footer .newsletter .email:hover {
@@ -630,6 +665,15 @@
 .main-footer .bottom-footer .icons {
   width: 190px;
   height: 30px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-footer .bottom-footer .icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-footer .bottom-footer .icons .oval-twitter-icon {
@@ -645,10 +689,74 @@
   height: 20px;
 }
 
+.main-footer .bottom-footer .icons .oval-twitter-icon:hover {
+  background: #5cc91d;
+}
+
 .main-footer .bottom-footer .icons .oval-facebook-icon {
   width: 29.97px;
   height: 30px;
 
   border-radius: 100%;
   background: #3B5998;
+}
+
+.main-footer .bottom-footer .icons .facebook-icon {
+  width: 19.98px;
+  height: 20px;
+}
+
+.main-footer .bottom-footer .icons .oval-facebook-icon:hover {
+  background: #5cc91d;
+}
+
+.main-footer .bottom-footer .icons .oval-instagram-icon {
+  width: 29.97px;
+  height: 30px;
+  
+  border-radius: 100%;
+  background: #3F729B;
+}
+
+.main-footer .bottom-footer .icons .instagram-icon {
+  width: 15.94px;
+  height: 15.96px;
+}
+
+.main-footer .bottom-footer .icons .oval-instagram-icon:hover {
+  background: #5cc91d;
+}
+
+.main-footer .bottom-footer .icons .oval-dribble-icon {
+  width: 29.97px;
+  height: 30px;
+  
+  border-radius: 100%;
+  background: #EA4C89;
+}
+
+.main-footer .bottom-footer .icons .dribble-icon {
+  width: 15.94px;
+  height: 16px;
+}
+
+.main-footer .bottom-footer .icons .oval-dribble-icon:hover {
+  background: #5cc91d;
+}
+
+.main-footer .bottom-footer .icons .oval-github-icon {
+  width: 29.97px;
+  height: 30px;
+  
+  border-radius: 100%;
+  background: #333333;
+}
+
+.main-footer .bottom-footer .icons .github-icon {
+  width: 17.94px;
+  height: 16px;
+}
+
+.main-footer .bottom-footer .icons .oval-github-icon:hover {
+  background: #5cc91d;
 }
