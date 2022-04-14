@@ -19,15 +19,15 @@ git clone https://github.com/LEBAOHAN html-css-practices.git
 
 2. At the root folder, open file `index.html`.
 
-You code HTML in here.
+You code HTML in here
 
 3. At the root folder, open file `main.css`.
 
-At here, you will style your code HTML to make your site an interesting.
+At here, you will style your code HTML to make your site an interesting
 
 4. Back the `index.html` file.
 
-You see right corner your screen and click "Go Live" item to look your site was code.
+You see right corner your screen and click "Go Live" item to look your site was code
 
 ## Slice UI from Figma to HTML site with CSS
 
