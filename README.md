@@ -4,7 +4,7 @@ This is practice for HTML/CSS
 
 - Han.Le (lebaohanz17@gmail.com)
 
-## Target
+## Targets
 - Getting started with HTML/CSS
 - Slice UI from Figma to HTML site with CSS
 ## Getting Started
