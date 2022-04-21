@@ -21,7 +21,7 @@
 .main-header .top-header::after {
   content: '';
   display: block;
-  border-bottom: solid 1px #FFFFFF;
+  border-bottom: solid 1px #fff;
   padding-top: 19.5px;
   width: 1056px;
   margin: 0px auto;
@@ -69,7 +69,7 @@
 .main-header .brand-and-logo-and-menu .telephone-number .number-contact::before {
   content: '';
   display: block;
-  border-right: solid 1px #FFFFFF;
+  border-right: solid 1px #fff;
   padding-left: 1px;
   width: 2px;
   height: 20px;
@@ -86,7 +86,7 @@
   padding-top: 1px;
   padding-left: 12px;
 
-  color: #FFFFFF;
+  color: #fff;
   mix-blend-mode: normal;
   opacity: 0.7;
 }
@@ -103,7 +103,8 @@
   font-size: 12.9px;
   line-height: 16px;
 
-  color: #FFFFFF;
+  color: #fff;
+  text-decoration: none;
 }
 
 /*---- Link ----*/
@@ -119,7 +120,7 @@
   line-height: 16px;
 }
 
-.main-header .brand-and-logo-and-menu .links .items {
+.main-header .brand-and-logo-and-menu .links .menu {
   display:flex ;
   justify-content: space-around;
   list-style: none;
@@ -132,44 +133,7 @@
   margin-right: 15px;
 }
 
-.main-header .brand-and-logo-and-menu .links .home {
-  width: 43px;
-  height: 16px;
-  padding-right: 15px;
-
-  color: rgba(177, 172, 172, 0.671);
-}
-
-.main-header .brand-and-logo-and-menu .links .home:hover {
-  color: #FFFFFF;
-}
-
-.main-header .brand-and-logo-and-menu .links .about-us {
-  white-space: nowrap;
-  width: 70px;
-  height: 16px;
-  padding-right: 15px;
-
-  color: rgba(177, 172, 172, 0.671);
-}
-
-.main-header .brand-and-logo-and-menu .links .about-us:hover {
-  color: #FFFFFF;
-}
-
-.main-header .brand-and-logo-and-menu .links .pricing {
-  width: 57px;
-  height: 16px;
-  padding-right: 15px;
-
-  color: rgba(177, 172, 172, 0.671);
-}
-
-.main-header .brand-and-logo-and-menu .links .pricing:hover {
-  color: #FFFFFF;
-}
-
-.main-header .brand-and-logo-and-menu .links .contact {
+.main-header .brand-and-logo-and-menu .links .menu-items {
   white-space: nowrap;
   width: 86px;
   height: 16px;
@@ -178,8 +142,8 @@
   color: rgba(177, 172, 172, 0.671);
 }
 
-.main-header .brand-and-logo-and-menu .links .contact:hover {
-  color: #FFFFFF;
+.main-header .brand-and-logo-and-menu .links .menu-items:hover {
+  color: #fff;
 }
 
 /*---- Button ----*/
@@ -205,7 +169,7 @@
   text-decoration: none;
   text-transform: uppercase;
 
-  color: #FFFFFF;
+  color: #fff;
   background-color: rgba(255, 255, 255, 0.35);
   border-radius: 2px;
   border: 1px solid rgba(255, 255, 255, 0);
@@ -236,7 +200,7 @@
   font-size: 38px;
   line-height: 24px;
   
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .main-header .masthead .content-welcome {
@@ -252,7 +216,7 @@
   font-size: 16px;
   line-height: 24px;
 
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .main-header .masthead .button {
@@ -274,10 +238,10 @@
   font-size: 14px;
   line-height: 18px;
 
-  color: #FFFFFF;
-  background-color: #6FB048;
+  color: #fff;
+  background-color: #6fb048;
   border-radius: 2px;
-  border: 1px solid #6FB048;
+  border: 1px solid #6fb048;
 
   text-decoration: none;
   text-transform: uppercase;
@@ -315,7 +279,7 @@
   font-size: 31.4px;
   line-height: 38px;
 
-  color: #0F5F5C;
+  color: #0f5f5c;
 }
 
 .main-section .best-of-our-features .title-content::after {
@@ -338,7 +302,7 @@
   font-size: 15px;
   line-height: 22px;
 
-  color: #83A7A5;  
+  color: #83a7a5;  
 }
 
 /*---- Contents of 3 columns ----*/
@@ -365,7 +329,7 @@
   font-size: 16px;
   line-height: 23px;
 
-  color: #0F5F5C;
+  color: #0f5f5c;
 }
 
 .main-section .contents .ionicons .content-ionicons {
@@ -375,7 +339,7 @@
   font-size: 14px;
   line-height: 22px;
 
-  color: #83A7A5;
+  color: #83a7a5;
   }
 
 /*---- Creative design ----*/
@@ -394,7 +358,7 @@
   font-size: 16px;
   line-height: 23px;
 
-  color: #0F5F5C;
+  color: #0f5f5c;
 }
 
 .main-section .contents .creative-design .content-cd {
@@ -404,7 +368,7 @@
   font-size: 14px;
   line-height: 22px;
 
-  color: #83A7A5;
+  color: #83a7a5;
 }
 
 /*---- Photoshop and sketch ----*/
@@ -423,7 +387,7 @@
   font-size: 16px;
   line-height: 23px;
 
-  color: #0F5F5C;
+  color: #0f5f5c;
 }
 
 .main-section .contents .photoshop-and-sketch .content-ps {
@@ -433,7 +397,7 @@
   font-size: 14px;
   line-height: 22px;
 
-  color: #83A7A5;
+  color: #83a7a5;
   }
 
 
@@ -443,7 +407,7 @@
   height: 409px;
   margin: 0 auto;
 
-  background: #EEF1EC;
+  background: #eef1ec;
 }
 
 /*---- Top footer ----*/
@@ -475,7 +439,7 @@
   line-height: 26px;
 
   text-transform: uppercase;
-  color: #0F5F5C;
+  color: #0f5f5c;
 }
 
 .main-footer .top-footer .info .info-contact {
@@ -488,18 +452,18 @@
   font-size: 13px;
   line-height: 15px;
 
-  color: #83A7A5;
+  color: #83a7a5;
 }
 
 .main-footer .top-footer .info .info-contact .email-contact {
   text-decoration: none;
-  color: #0F5F5C;
+  color: #0f5f5c;
 }
 
 /*--- "tag: a" of company and others ---*/
 .main-footer .top-footer .company-menu a, .others-menu a {
   text-decoration: none;
-  color: #83A7A5;
+  color: #83a7a5;
 }
 
 /*--- Company menu ---*/
@@ -518,10 +482,10 @@
   font-size: 13px;
   line-height: 18px;
 
-  color: #0F5F5C;
+  color: #0f5f5c;
 }
 
-.main-footer .top-footer .company-menu .links {
+.main-footer .top-footer .company-menu .menu {
   width: 200px;
   height: 112px;
   margin: 0;
@@ -536,20 +500,8 @@
   list-style: none;
 }
 
-.main-footer .top-footer .company-menu .links .home:hover {
-  color: #0F5F5C;
-}
-
-.main-footer .top-footer .company-menu .links .about-us:hover {
-  color: #0F5F5C;
-}
-
-.main-footer .top-footer .company-menu .links .pricing:hover {
-  color: #0F5F5C;
-}
-
-.main-footer .top-footer .company-menu .links .contact:hover {
-  color: #0F5F5C;
+.main-footer .top-footer .company-menu .menu .menu-items:hover {
+  color: #0f5f5c;
 }
 
 .main-footer .top-footer .others-menu {
@@ -568,7 +520,7 @@
   font-size: 13px;
   line-height: 18px;
 
-  color: #0F5F5C;
+  color: #0f5f5c;
 }
 
 .main-footer .top-footer .others-menu .menu {
@@ -586,16 +538,8 @@
   list-style: none;
 }
 
-.main-footer .top-footer .others-menu .menu .help-sp:hover {
- color: #0F5F5C;
-}
-
-.main-footer .top-footer .others-menu .menu .policy-terms:hover {
-  color: #0F5F5C;
-}
-
-.main-footer .top-footer .others-menu .menu .map:hover {
-  color: #0F5F5C;
+.main-footer .top-footer .others-menu .menu .menu-items:hover {
+ color: #0f5f5c;
 }
 
 /*--- Newsletter ---*/
@@ -614,7 +558,7 @@
   font-size: 13px;
   line-height: 18px;
 
-  color: #0F5F5C;
+  color: #0f5f5c;
 }
 
 .main-footer .top-footer .newsletter .content-newsletter {
@@ -627,7 +571,7 @@
   font-size: 13px;
   line-height: 18px;
   
-  color: #83A7A5;
+  color: #83a7a5;
 }
 
 .main-footer .top-footer .newsletter .field-enter-email {
@@ -647,7 +591,7 @@
   
   border: none;
   border-radius: 2px;
-  background: #EEF1EC;
+  background: #eef1ec;
 }
 
 .main-footer .top-footer .newsletter .email:hover {
@@ -689,7 +633,7 @@
   font-size: 12px;
   line-height: 17px;
 
-  color: #83A7A5;
+  color: #83a7a5;
 }
 
 /*---- Icons ----*/
@@ -712,7 +656,7 @@
   height: 30px;
   
   border-radius: 100%;
-  background: #55ACEE;
+  background: #55acee;
 }
 
 .main-footer .bottom-footer .icons .twitter-icon {
@@ -729,7 +673,7 @@
   height: 30px;
 
   border-radius: 100%;
-  background: #3B5998;
+  background: #3b5998;
 }
 
 .main-footer .bottom-footer .icons .facebook-icon {
@@ -746,7 +690,7 @@
   height: 30px;
   
   border-radius: 100%;
-  background: #3F729B;
+  background: #3f729b;
 }
 
 .main-footer .bottom-footer .icons .instagram-icon {
@@ -763,7 +707,7 @@
   height: 30px;
   
   border-radius: 100%;
-  background: #EA4C89;
+  background: #ea4c89;
 }
 
 .main-footer .bottom-footer .icons .dribble-icon {
@@ -780,7 +724,7 @@
   height: 30px;
   
   border-radius: 100%;
-  background: #333333;
+  background: #333;
 }
 
 .main-footer .bottom-footer .icons .github-icon {

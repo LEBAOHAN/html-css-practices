@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- styles -->
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/normalize.css">
+    
     <!-- favicon -->
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -23,11 +26,11 @@
         <div class="brand-and-logo-and-menu">
 
           <!-- Logo -->
-          <nav class="logo">
+          <div class="logo">
             <a href="./index.html">
               <img src="./assets/images/logo/wapik.png" alt="Wapik">
             </a>
-          </nav>
+          </div>
           
           <!-- Contact -->
           <div class="telephone-number">
@@ -35,17 +38,17 @@
               <li class="telephone">
                 <img src="./assets/images/icons/telephone.svg" alt="telephone" >
               </li>
-              <li class="number">+62 202 555 0117</li>
+              <li><a class="number" href="tel:+62 202 555 0117">+62 202 555 0117</a></li>
             </ul>
           </div>
             
           <!-- Links -->
           <nav class="links">
-            <ul class="items">
-              <li><a href="./index.html" class="home">Home</a></li>
-              <li><a href="/" class="about-us">About us</a></li>
-              <li><a href="/" class="pricing">Pricing</a></li>
-              <li><a href="/" class="contact">Contact us</a></li>
+            <ul class="menu">
+              <li><a href="./index.html" class="menu-items">Home</a></li>
+              <li><a href="/" class="menu-items">About us</a></li>
+              <li><a href="/" class="menu-items">Pricing</a></li>
+              <li><a href="/" class="menu-items">Contact us</a></li>
             </ul>
           </nav>
 
@@ -133,11 +136,11 @@
         <!-- Company menu -->
         <div class="company-menu">
           <h1 class="title-company-menu">Company</h1>
-          <ul class="links">
-            <li><a href="./index.html" class="home">Home</a></li>
-            <li><a href="/" class="about-us">About Us</a></li>
-            <li><a href="/" class="pricing">Pricing</a></li>
-            <li><a href="/" class="contact">Contact Us</a></li>
+          <ul class="menu">
+            <li><a href="./index.html" class="menu-items">Home</a></li>
+            <li><a href="/" class="menu-items">About Us</a></li>
+            <li><a href="/" class="menu-items">Pricing</a></li>
+            <li><a href="/" class="menu-items">Contact Us</a></li>
           </ul>
         </div>
 
@@ -145,9 +148,9 @@
         <div class="others-menu">
           <h1 class="title-others-menu">Others</h1>
           <ul class="menu">
-            <li><a href="/" class="help-sp">Help & Support</a></li>
-            <li><a href="/" class="policy-terms">Privacy Policy Terms</a></li>
-            <li><a href="/" class="map">Sitemap</a></li>
+            <li><a href="/" class="menu-items">Help & Support</a></li>
+            <li><a href="/" class="menu-items">Privacy Policy Terms</a></li>
+            <li><a href="/" class="menu-items">Sitemap</a></li>
           </ul>
         </div>
       
@@ -157,13 +160,14 @@
           <p class="content-newsletter">Subscribe to our newsletter and get all
           the cool news</p>
           <div class="field-enter-email">
-            <input type="email" class="email" required placeholder="Enter email">
-            <a href="">
+            <form action="">
+              <input type="email" class="email" required 
+              placeholder="Enter email">
               <button class="button" type="button" 
               onclick="alert('Please enter your email here')">
                 <img src="./assets/images/icons/plane.png" alt="plane-icon">
               </button>
-            </a>
+            </form>
           </div>
         </div>
       </div>
