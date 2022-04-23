@@ -100,7 +100,7 @@
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 12.9px;
+  font-size: 13px;
   line-height: 16px;
 
   color: #fff;
@@ -186,7 +186,7 @@
 }
 
 .main-header .masthead .welcome {
-  width: 377px;
+  width: 380px;
   height: 53px;
   margin: 0;
   padding-bottom: 9px;
@@ -194,7 +194,7 @@
   display: flex;
   align-items: center;
   
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 38px;
@@ -475,6 +475,7 @@
 .main-footer .top-footer .company-menu .title-company-menu {
   width: 201px;
   height: 18px;
+  margin-top: 0;
 
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -513,6 +514,7 @@
 .main-footer .top-footer .others-menu .title-others-menu {
   width: 257px;
   height: 18.6px;
+  margin-top: 0;
 
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -551,6 +553,7 @@
 .main-footer .top-footer .newsletter .title-newsletter {
   width: 253.46px;
   height: 18px;
+  margin-top: 0;
 
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -640,6 +643,7 @@
 .main-footer .bottom-footer .icons {
   width: 190px;
   height: 30px;
+  margin-top: 0;
 
   display: flex;
   justify-content: space-between;
