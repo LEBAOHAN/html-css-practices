@@ -583,8 +583,9 @@
 }
 
 .main-footer .top-footer .newsletter .email {
-  width: 233.1px;
+  width: 207.1px;
   height: 36px;
+  padding-left: 16.88px;
 
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -611,7 +612,7 @@
 
 .main-footer .top-footer .newsletter .button:hover {
   border: 1px solid #5cc91d;
-  border-radius: 2%;
+  border-radius: 10%;
 }
 
 /*---- Bottom footer ----*/
