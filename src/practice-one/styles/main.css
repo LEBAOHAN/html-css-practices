@@ -189,7 +189,8 @@
   width: 380px;
   height: 53px;
   margin: 0;
-  padding-bottom: 9px;
+  padding-top: 6px;
+  padding-bottom: 2px;
 
   display: flex;
   align-items: center;
@@ -403,11 +404,15 @@
 
 /*---- Main footer ----*/
 .main-footer {
-  width: 1500px;
   height: 409px;
   margin: 0 auto;
 
   background: #eef1ec;
+}
+
+.main-footer .container {
+  width: 1500px; 
+  margin: 0 auto;
 }
 
 /*---- Top footer ----*/
@@ -596,6 +601,7 @@
   border: none;
   border-radius: 2px;
   background: #eef1ec;
+  color: #83a7a5;
 }
 
 .main-footer .top-footer .newsletter .email:hover {
