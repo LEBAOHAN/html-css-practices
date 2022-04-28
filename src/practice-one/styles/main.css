@@ -601,6 +601,9 @@
   border: none;
   border-radius: 2px;
   background: #eef1ec;
+}
+
+.main-footer .top-footer .newsletter .email::placeholder {
   color: #83a7a5;
 }
 
